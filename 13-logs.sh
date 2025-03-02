@@ -22,8 +22,7 @@ if [ $1 -ne 0 ]
    fi
 }
 
-echo "Script started executed at: $TIMESTAMP" &>>$
-LOGS_FILE_NAME
+echo "Script started executed at: $TIMESTAMP" &>>$LOGS_FILE_NAME
 
 if [ $USERID -ne 0 ]
 then
